@@ -23,6 +23,7 @@ dependencies {
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
     implementation(compose.preview)
+    //implementation(libs.ui.desktop)
     testImplementation(compose.preview)
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.okhttp)
